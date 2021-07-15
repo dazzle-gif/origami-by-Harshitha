@@ -1,0 +1,148 @@
+body {
+    background-color:rgb(1, 49, 68);
+}
+
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: cornsilk;
+    font-family: 'Arial';
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-style:dotted;
+    border-radius: 550px;
+    font-weight: 100;
+    text-align:center;
+    align-items: center;
+    line-height: 100px;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.8);
+    text-decoration: underline;
+    text-decoration-style:solid;
+    opacity: 3;
+    color:#000000;
+    background: #50b0ff;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+
+.matter {
+    text-align:left;
+    background:rgb(0, 23, 44) ;
+    box-shadow: -30px 30px 20px rgb(0, 0, 0);
+    line-height: 20px;
+}
+
+
+li {
+    font-family:"Berlin Sans FB";
+      font-size: 20px;
+      color:rgb(0, 0, 0, 0.0000001);
+      text-align: left;
+      line-height:90px;
+}
+
+h2 {
+font-family:"Comic Sans MS";
+  font-size: 30x;
+  color:rgb(255, 255, 255);
+  text-align-last: left;
+  line-height:70px;
+  text-decoration: underline;
+}
+
+
+.grid {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #060c21;
+}
+
+.grid img{
+    border: 1px solid rgb(255, 255, 255); 
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    display:flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.make {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin:30px;
+    padding:25px;
+    position:relative;
+    justify-content:space-evenly;
+    border-radius: 20px;
+    font-family:"Kristen ITC";
+    width:310px;
+    height:400px;
+    
+}
+
+
+.make:hover{
+    transform: scale(1.1);
+}
+
+p {
+    font-family:"Berlin Sans FB";
+      font-size: 20px;
+      color:rgb(255, 255, 255);
+      text-align: left;
+      line-height:30px;
+}
+.make li {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.make:hover li{
+transition-duration:1s;
+opacity:1;
+color:rgb(255, 255, 255);
+line-height: 25px;
+}
+
+.make:hover {
+background-color: #060c21;
+
+
+}
+
+.make:before,
+.make:hover
+{
+    background:linear-gradient(180deg, violet,rgb(150, 17, 107),#050d2b );
+    
+}
+
+.alet {
+
+    font-family: "arial";
+    font-size: 20px;
+    width:70px;
+padding-bottom: 10px;
+padding-top: 5px;
+    text-align: center;
+    border-radius:5px;
+    color:white;
+    background-color:rgb(4, 255, 230);
+box-shadow:0 0 10px, 0 0 40px, 0 0 80px cyan;
+}
+
+.alet a {
+    color:black;
+}
+
+.how {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    line-height: 70px;
+    width:700px;
+    background:rgb(1, 17, 107)
+}
